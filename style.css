@@ -1,0 +1,418 @@
+  
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-shadow: .04em .04em .04em #000;
+  font-family: 'Days One', sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+
+
+  #mobile-page {
+        padding: .5em;
+  }
+
+  a:link, a:visited {
+      text-decoration: none;
+      color:inherit;
+    }
+
+    a {
+      transition: all 1.5s;
+    }
+
+  a:hover {
+    transform: scale(1.2);
+    color: #FF5A09;
+  }
+
+    a:active {
+      color: white;
+      background-color: #FF5A09;
+      border:solid 2px;
+      border-radius: 8px;
+    }
+
+  #navbar {
+    list-style: none;
+    display: flex;
+  
+  }
+
+  #navbar li {  
+    display: flex;
+    justify-content: center;
+      color: #185967;
+      font-size: 6vw;
+      flex-grow: 1;
+  }
+
+
+
+  #logo-title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+   
+  }
+
+  #logo {
+    max-width:30%;
+    min-width: 30%;
+  }
+
+  #title-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    color: #FF5A09;
+    margin-top: 2vw;
+  }
+
+  #title {
+    font-size:15vw;
+    margin-bottom: -3vw; 
+  }
+
+  h6 {
+    font-size: 8vw;
+  }
+
+  #location {
+    color: #185967;
+    font-size: 6.5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+  }
+
+
+  #pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pic {
+    border-radius: 8px;
+  }
+
+  #menu-nav li {
+    font-size: 5.5vw;;
+  }
+
+  #hours-container {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #hours {
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    color: #185967;
+    font-size: 6.5vw;
+    color: #FF5A09;
+    margin-top: 2vw;
+  }
+
+
+#menu-nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-size: 7vw;
+  color: #FF5A09;
+}
+
+.pie {
+  margin-bottom: 5vw;
+}
+
+.fritata {
+  margin-bottom: 5vw;
+}
+
+.address-container {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #185967;
+  font-size: 7vw;
+}
+
+
+.flogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vw;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+#bsad {           /*beginning of menu pages*/
+  color: #FF5A09;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -3vw;
+  font-size: 7vw !important;
+}
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+
+h2 {
+  color: #185967;
+  font-size: 1vw;
+  margin-bottom: 1vw;
+}
+
+h3 {
+color: #FF5A09;
+font-size: 5vw;
+margin-bottom: 2vw;
+}
+
+p {
+  font-size: 3.5vw;
+}
+
+.column>p {
+  font-size: 3vw;
+  margin-bottom: 3vw;
+}
+
+#items {
+  color: #FF5A09;
+}
+
+.hiding {
+  display: none;
+}
+
+}
+
+/*Desktop Version*/
+
+@media only screen and (min-width: 768px) {
+
+ #mobile-page {
+  display: none;
+ }
+
+#navbar-container {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dtn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.nav-item {
+  display: inline;
+  padding: 8px;
+  font-size: 1em;
+
+}
+
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  font-family: 'Days One', sans-serif;
+  color: #185967;
+  border-radius: 8px;
+  padding: .3em;
+  transition: all 1s;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  color: #FF5A09;
+}
+
+.nav-link:active {
+
+}
+
+.disabled:hover {
+  color: #FF5A09;
+  background-color: white;
+  border: white;
+}
+
+.disabled {
+  background-color: #FF5A09;
+  color: white;
+  border: 2px solid #FF5A09;
+  padding: 1em;
+}
+
+.background-image-container {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 12% 0;
+    height: 32em;
+
+  }
+
+.white-text-container {
+  color: orange;
+  text-shadow: 0 1px 3px #000;
+}
+
+.title-container {
+  display: flex;
+  align-self: center;
+  margin-right: auto;
+  margin-left: 1em;
+}
+
+.logo {
+  align-self: center;
+  margin-right: 1em;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #FF5A09;
+  font-family: 'Days One', sans-serif;
+  text-shadow: .05em .05em .05em #000;
+}
+
+.bottom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+  height: 30em;
+}
+
+.hours, .address, .togo {
+  width: 20em;
+  color: #185967;
+  display: flex;
+  text-align: center;
+  font-family: 'Days One', sans-serif;
+}
+
+
+}
+
+#bsad {           /*beginning of menu pages*/
+  color: #FF5A09;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+
+h2 {
+  color: #185967;
+  font-size: 4vw;
+  margin-bottom: 1vw;
+}
+
+h3 {
+color: #FF5A09;
+font-size: 3vw;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.price {
+  color: black;
+  text-shadow: none;
+  font-size: 2vw;; 
+}
+
+.column > p {
+  margin-top: -10px;
+  margin-bottom: -1px;
+}
+
+.lf-container {
+  border: 3px #FF5A09 solid;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+.lf-container h3 {
+  font-size: 2.5vw;
+  text-shadow: none;
+}
+
+
+p {
+  text-shadow: none;
+}
+
+
+
+
+
+
