@@ -148,8 +148,7 @@
   display: flex;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  color: #185967;
+  color: #FF5A09;
   font-size: 7vw;
 }
 
@@ -158,11 +157,13 @@
   display: flex;
   justify-content: center;
   margin-top: 5vw;
+  margin-bottom: 5vw;;
 }
 
 .map {
   display: flex;
   justify-content: center;
+  margin-bottom: 5vw;;
 }
 
 
