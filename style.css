@@ -9,10 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#top-section {
-  height: 100vh;
-  margin-top: 10px;
-}
 
 #logo {
   pointer-events: none;
@@ -116,6 +112,13 @@ i:hover {
 
 #fb-logo {
   margin-top: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  #top-section {
+    height: 100vh;
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 1025px) {
