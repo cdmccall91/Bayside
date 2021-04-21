@@ -33,12 +33,12 @@ function showBreakfast() {
     <div class="sub-menu-container col s6">
       <div class="category-container">
         <h4>Traditional Breakfast</h4>
-        <h5>Ted's Traditional Breakfast</h5>
+        <h5>Ted's Belgian Waffle</h5>
         <p>One Belgian waffle topped with whipped cream and powdered sugar
           Add blueberries or strawberries<br>$7.98</p>
         <h5>Maxine's French Toast</h5>
         <p>Four slices of raisin bread dipped in a cinnamon egg wash topped with powered sugar
-          Add blueberries or strawberries<br>$7.98</p>
+          Add blueberries or strawberries<br>$8.98</p>
         <h5>The Lumberjack Pancakes</h5>
         <p>Two buttermilk pancakes topped with powdered sugar and whipped cream
           Add blueberries or strawberries<br>$8.98</p>
@@ -54,7 +54,7 @@ function showBreakfast() {
       <div class="category-container">
         <h4>Benedict</h4>
         <h5>Traditional Benedict</h5>
-        <p>Two poached eggs over ham and tomatoes served on a toasted pretzel bread bun smothered in house made hollandaise and scallion garnish<br>$7.98</p>
+        <p>Two poached eggs over ham and tomatoes served on a toasted pretzel bread bun smothered in house made hollandaise and scallion garnish<br>$9.98</p>
         <h5>Smoked Whitefish Benedict</h5>
         <p>Two poached eggs over ham and tomatoes served on a toasted pretzel bread bun smothered in house made hollandaise with scallion garnish<br>$15.98</p>
         <h5>Ultimate Porker Benedict</h5>
